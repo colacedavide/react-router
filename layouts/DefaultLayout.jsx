@@ -1,14 +1,15 @@
 import { Outlet } from "react-router-dom";
-import Nav from "../src/Nav";
+import AppNav from "../src/AppNav";
 
 export default function DefaultLayout() {
     return (
         <div>
             <header>
-                <Nav></Nav>
+
+                <AppNav />
             </header>
             <main>
-                <Outlet></Outlet>
+                <Outlet />
             </main>
         </div>
     )
