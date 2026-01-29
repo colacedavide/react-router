@@ -9,9 +9,9 @@ export default function AppNav() {
         <Navbar bg="dark" data-bs-theme="dark">
             <Container>
                 <Nav className="me-auto">
-                    <NavLink to="/">Home</NavLink>
-                    <NavLink to="/about">Chi siamo</NavLink>
-                    <NavLink to="/products">Prodotti</NavLink>
+                    <Nav.Link href="/">Home</Nav.Link>
+                    <Nav.Link href="/about">Chi siamo</Nav.Link>
+                    <Nav.Link href="/products">Prodotti</Nav.Link>
                 </Nav>
             </Container>
         </Navbar>

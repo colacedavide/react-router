@@ -21,7 +21,8 @@ export default function Products() {
                         <Card.Body className="d-flex flex-column">
                             <Card.Title>{prodotto.title}</Card.Title>
                             <Card.Text> {prodotto.price} $</Card.Text>
-                            <Button variant="primary" href="/Deatil">Dettaglio</Button>
+                            <Card.Text> {prodotto.id}</Card.Text>
+                            <Button variant="primary" href="/">Dettaglio</Button>
                         </Card.Body>
                     </Card>
                 </div>))}
