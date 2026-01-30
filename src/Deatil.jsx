@@ -4,7 +4,7 @@ import { useState, useEffect } from "react"
 import { useParams } from "react-router-dom";
 import axios from "axios";
 
-export default function Home() {
+export default function Deatil() {
     const { id } = useParams();
     const [detProd, setDetProd] = useState([]);
     const endpoint = `https://fakestoreapi.com/products/${id}`;
